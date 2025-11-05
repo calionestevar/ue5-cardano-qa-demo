@@ -7,7 +7,7 @@
 ---
 
 ### Demo Video  
-[Watch 2-min walkthrough](docs/demo-video.mp4)
+[Watch 2-min walkthrough](docs/demo-video.mp4) *(coming soon)*
 
 ---
 
@@ -20,11 +20,11 @@
 
 ---
 
-### Test Coverage
+### Test Coverage *(coming soon)*
 | Type       | Count | Coverage |
 |------------|-------|----------|
-| Unit (FTF) | 15    | 94%      |
-| E2E (Cypress) | 8  | 100%     |
+| Unit (FTF) | 0     | 0%       |
+| E2E (Cypress) | 0  | 0%       |
 
 ---
 
