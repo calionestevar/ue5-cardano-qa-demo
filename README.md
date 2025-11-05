@@ -1,2 +1,40 @@
-# ue5-cardano-qa-demo
-Automated QA for Unreal Engine 5 + Cardano blockchain integration. Mint land NFTs in-game, test with Cypress &amp; FTF. Inspired by Cornucopias. Open to remote Sr. QA/SDET roles.
+# UE5 + Cardano QA Demo  
+**Sr. QA Engineer | Garmin → Unreal Engine 5 + Cardano Automation**
+
+> **Automated testing for a blockchain-integrated MMORPG**  
+> Inspired by *Cornucopias* — mint land NFTs in-game via Cardano.
+
+---
+
+### Demo Video  
+[Watch 2-min walkthrough](docs/demo-video.mp4)
+
+---
+
+### Tech Stack
+- **Unreal Engine 5.4** (C++ + Blueprints)
+- **Functional Testing Framework** (10+ auto tests)
+- **Cardano** (Aiken + `cardano-cli-js`)
+- **Cypress** (E2E wallet → mint → display)
+- **GitHub Actions** (CI/CD)
+
+---
+
+### Test Coverage
+| Type       | Count | Coverage |
+|------------|-------|----------|
+| Unit (FTF) | 15    | 94%      |
+| E2E (Cypress) | 8  | 100%     |
+
+---
+
+### How to Run
+```bash
+# 1. Start Cardano server
+cd Node-Server && npm start
+
+# 2. Open UE5 project
+UE5-Project/YourProject.uproject
+
+# 3. Run Cypress
+cd Cypress-Tests && npx cypress open
